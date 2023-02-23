@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@font-face {
+    font-family: 'MinecraftLogo';
+    src: url('../minecraft.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    margin: 0;
+    height: 100vh !important;
+}
+.fondo {
+    height: 100% !important;
+    background-color: #0e0e0e;
+}
+.logo {
+    max-width: 50px;
+}
+.banner-mc {
+    font-family: "MinecraftLogo";
+    color: #fefefe;
+    font-size: 6em;
+    margin-bottom: 0.5em;
+}
+.network {
+    font-family: 'Tilt Warp', cursive;
+    color: #fefefe;
+
+    font-size: 4em;
+    letter-spacing: 1em;
+    margin-bottom: 2em;
+
+}
